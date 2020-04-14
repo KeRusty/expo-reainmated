@@ -1,12 +1,12 @@
 import React from 'react';
-import { Text, View, ScrollView, SafeAreaView } from 'react-native';
+import { Text, View, TouchableOpacity, SafeAreaView } from 'react-native';
 
 import styles from './cards-styles';
 
 export default function Cards(props) {
 
     return (
-        <View style={styles.cardContainer}>
+        <TouchableOpacity style={styles.cardContainer}>
 
             <View style={styles.contentContainer}>
 
@@ -18,14 +18,14 @@ export default function Cards(props) {
 
                 <View style={styles.textContainer}>
 
-                    <Text>{props.heading}</Text>
+                    <Text style={styles.headingText}>{props.heading}</Text>
 
-                    <Text>{props.subheading}</Text>
+                    <Text style={styles.subheadingText}>{props.subheading}</Text>
 
                 </View>
 
             </View>
 
-        </View>
+        </TouchableOpacity>
     );
 }

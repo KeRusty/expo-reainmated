@@ -21,5 +21,12 @@ export default StyleSheet.create({
         paddingHorizontal: 10,
         justifyContent: 'center',
         flexDirection: 'column'
+    },
+    headingText: {
+        fontSize: 16,
+        fontWeight: 'bold'
+    },
+    subheadingText: {
+        fontSize: 12,
     }
 })
