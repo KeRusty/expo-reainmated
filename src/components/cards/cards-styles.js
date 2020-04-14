@@ -2,7 +2,6 @@
 import { StyleSheet } from 'react-native'
 
 export default StyleSheet.create({
-
     cardContainer: {
         paddingHorizontal: 10,
         paddingVertical: 4
@@ -23,5 +22,4 @@ export default StyleSheet.create({
         justifyContent: 'center',
         flexDirection: 'column'
     }
-
 })
