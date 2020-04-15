@@ -1,7 +1,8 @@
 import React from 'react';
 import { Text, View, ScrollView, SafeAreaView } from 'react-native';
 
-import Cards from "../../components/cards/cards";
+//import Cards from "../../components/cards/cards";
+import Cards from '../../components/cards/cards2';
 import styles from './home-styles';
 
 export default function Home() {
@@ -49,6 +50,7 @@ export default function Home() {
                     heading={"Step Ups"}
                     subheading={"10 Reps Each Leg"}
                 />
+
 
             </ScrollView>
 
