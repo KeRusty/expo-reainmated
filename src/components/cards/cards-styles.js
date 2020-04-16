@@ -17,7 +17,12 @@ export default StyleSheet.create({
         paddingVertical: 4,
         paddingHorizontal: 10,
         backgroundColor: '#ffffff',
-        flexDirection: 'column'
+        flexDirection: 'column',
+        shadowColor: '#808080',
+        shadowOffset: { width: 2, height: 2 },
+        shadowOpacity: 2,
+        shadowRadius: 4,
+        elevation: 10
     },
     imageContainer: {
         paddingVertical: 20,
