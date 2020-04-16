@@ -11,7 +11,8 @@ export default StyleSheet.create({
         paddingVertical: 4,
         paddingHorizontal: 10,
         backgroundColor: '#ffffff',
-        flexDirection: 'row'
+        flexDirection: 'row',
+        borderRadius: 4,
     },
     pressedContentContainer: {
         paddingVertical: 4,
@@ -19,19 +20,22 @@ export default StyleSheet.create({
         backgroundColor: '#ffffff',
         flexDirection: 'column',
         shadowColor: '#808080',
-        shadowOffset: { width: 2, height: 2 },
-        shadowOpacity: 2,
-        shadowRadius: 4,
-        elevation: 10
+        shadowOffset: { width: 8, height: 2 },
+        shadowOpacity: 1,
+        shadowRadius: 8,
+        elevation: 4,
+        borderRadius: 4,
     },
     imageContainer: {
         paddingVertical: 20,
         paddingHorizontal: 20,
+        borderRadius: 4,
         backgroundColor: '#000000'
     },
     pressedImageContainer: {
         backgroundColor: '#000000',
         width: '100%',
+        borderRadius: 4,
         paddingVertical: 80,
     },
     textContainer: {
