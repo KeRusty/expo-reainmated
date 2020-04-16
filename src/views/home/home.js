@@ -1,8 +1,7 @@
 import React from 'react';
 import { Text, View, ScrollView, SafeAreaView } from 'react-native';
 
-//import Cards from "../../components/cards/cards";
-import Cards from '../../components/cards/cards2';
+import Cards from '../../components/cards/cards';
 import styles from './home-styles';
 
 export default function Home() {
