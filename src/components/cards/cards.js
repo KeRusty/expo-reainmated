@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react';
 import Animated, { Easing } from 'react-native-reanimated';
-import { Text, View, TouchableOpacity } from 'react-native';
+import { Text, View, TouchableOpacity, Image } from 'react-native';
 
 import styles from './cards-styles'
 
@@ -82,7 +82,7 @@ const Row = ({ showContent, toggleContent, height, heading, subheading }) => {
 
                         <View style={styles.pressedImageContainer}>
 
-                            <Text>IMAGE</Text>
+                            <Image style={styles.tickImage} source={require('../../../assets/tick.png')} />
 
                         </View>
 
