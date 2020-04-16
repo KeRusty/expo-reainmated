@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, useRef } from 'react';
 import Animated, { Easing } from 'react-native-reanimated';
 import { Text, View, TouchableOpacity } from 'react-native';
 
@@ -123,9 +123,9 @@ const Card = (props) => {
     const toggleRowContent = () => {
 
         if (!showContent) {
-            heightRow.current = runTiming(new Clock(), new Value(80), new Value(300));
+            heightRow.current = runTiming(new Clock(), new Value(60), new Value(260));
         } else {
-            heightRow.current = runTiming(new Clock(), new Value(300), new Value(60));
+            heightRow.current = runTiming(new Clock(), new Value(260), new Value(60));
         }
 
         setShowContent(!showContent);
